@@ -8,7 +8,7 @@ app: FastAPI = FastAPI()
 # origins: List[str] = ["*"]
 origins: List[str] = [
     # "*"
-    "http://localhost:3000",  # localhost
+    "http://localhost:5173",  # localhost
     # "http://192.168.1.60:3000",  # Network
 ]
 

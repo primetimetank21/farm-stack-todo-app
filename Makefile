@@ -48,3 +48,27 @@ backend-clean:
 .PHONY: backend-all
 backend-all:
 	@$(MAKE) -C $(BACKEND_DIR) $(NO_PRINT_FLAG) all
+
+.PHONY: frontend-run-dev-server
+frontend-run-dev-server:
+	@npm run dev --prefix ./frontend
+
+.PHONY: frontend-install
+frontend-install:
+	@npm install --prefix ./frontend
+
+.PHONY: frontend-format
+frontend-format:
+	@npm run format --prefix ./frontend
+
+.PHONY: frontend-lint
+frontend-lint:
+	@npm run lint --prefix ./frontend
+
+.PHONY: frontend-test
+frontend-test:
+#	@npm run test --prefix ./frontend
+	@echo "TODO: Add frontend tests"
+
+.PHONY: frontend-all
+frontend-all: frontend-install frontend-format frontend-test
