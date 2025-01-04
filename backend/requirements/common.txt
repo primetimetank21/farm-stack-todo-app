@@ -1,0 +1,12 @@
+# Formatting, Linting, and Testing Dependencies
+pytest
+pytest-cov
+jupyter
+mypy
+ruff
+mock
+
+# FastAPI Dependencies
+fastapi
+uvicorn
+pydantic

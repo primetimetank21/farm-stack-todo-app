@@ -1,3 +1,5 @@
+[![Python Versions](https://github.com/primetimetank21/farm-stack-todo-app/actions/workflows/python-versions.yml/badge.svg)](https://github.com/primetimetank21/farm-stack-todo-app/actions/workflows/python-versions.yml)
+
 # FARM-Stack TODO Application
 
 This is a simple TODO application built using the FARM stack
