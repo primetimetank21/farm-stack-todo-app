@@ -1,6 +1,8 @@
 from pydantic import BaseModel, Field, field_serializer, ConfigDict
 from bson import ObjectId
 
+# TODO: Add timestamps(?)
+
 
 class Todo(BaseModel):
     id: ObjectId = Field(alias="_id")
@@ -11,8 +13,6 @@ class Todo(BaseModel):
     @field_serializer("id")
     @classmethod
     def serialize_id(cls, value: ObjectId) -> str:
-        print(f"{type(value)=}")
-        # print(f"{ObjectId(value)=}")
         return str(value)
 
     model_config = ConfigDict(arbitrary_types_allowed=True)
