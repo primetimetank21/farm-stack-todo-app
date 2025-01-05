@@ -1,4 +1,5 @@
 [![Python Versions](https://github.com/primetimetank21/farm-stack-todo-app/actions/workflows/python-versions.yml/badge.svg)](https://github.com/primetimetank21/farm-stack-todo-app/actions/workflows/python-versions.yml)
+[![Node Versions](https://github.com/primetimetank21/farm-stack-todo-app/actions/workflows/node-versions.yml/badge.svg)](https://github.com/primetimetank21/farm-stack-todo-app/actions/workflows/node-versions.yml)
 
 # FARM-Stack TODO Application
 

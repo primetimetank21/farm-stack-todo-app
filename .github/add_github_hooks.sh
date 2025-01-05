@@ -8,12 +8,12 @@ pre_push="../.git/hooks/pre-push"
 if [ ! -f $pre_commit ]
 then
     # echo "make all" > $pre_commit && chmod +x $pre_commit
-    echo "make backend-all" > $pre_commit && chmod +x $pre_commit
+    echo "make backend-all; make frontend-all" > $pre_commit && chmod +x $pre_commit
 fi
 
 # pre-push
 if [ ! -f $pre_push ]
 then
     # echo "make all" > $pre_push && chmod +x $pre_push
-    echo "make backend-all" > $pre_push && chmod +x $pre_push
+    echo "make backend-all; make frontend-all" > $pre_push && chmod +x $pre_push
 fi
