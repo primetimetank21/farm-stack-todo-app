@@ -10,3 +10,6 @@ mock
 fastapi
 uvicorn
 pydantic
+
+# MongoDB Dependencies
+pymongo[srv]
